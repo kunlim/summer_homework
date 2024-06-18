@@ -1,12 +1,11 @@
-<?php
-// 資料庫連接設定
-$servername = "127.0.0.1";  // 或者使用 "localhost"
+<?php //資料庫連接檔案
+$servername = "127.0.0.1";
 $username = "root";
-$password = 'teddy01050021';  // XAMPP 預設的 root 使用者沒有密碼
-$dbname = "my_database";  // 您要連接的資料庫名稱
-$port = 3307;
+$password = 'teddy01050021'; 
+$dbname = "my_database";  
+$port = 3307; 
 
-// 創建資料庫連接
+// 資料庫連接
 $conn = new mysqli($servername, $username, $password, $dbname, $port);
 
 // 檢查連接
@@ -16,8 +15,6 @@ if ($conn->connect_error) {
 
 //echo "....連接成功";
 
-// 在這裡可以進行後續的資料庫操作
-
-// 關閉連接
+// closed connected
 //$conn->close();
 ?>
