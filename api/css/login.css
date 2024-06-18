@@ -1,0 +1,34 @@
+#mainNav {
+    background-color: #0584f2;
+}
+
+.Ltitle {
+    font-weight: bolder;
+    font-family: DFKai-sb;
+    font-size: 24px;
+}
+
+div {
+    text-align: center;
+}
+
+/* 中間白色窗格 */
+.manager-log-in-box { 
+    line-height: 40px;
+    border-style: solid;
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.500);
+}
+
+input {
+    padding: 5px 15px;
+    background: #ccc;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
