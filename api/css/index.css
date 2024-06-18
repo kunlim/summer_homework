@@ -1,4 +1,31 @@
-.title{
-    height:10% ;
-    background-color:rgb(72, 108, 185)
+body {
+    background-color: #f8f9fa; /* Light gray background */
+}
+.message-time {
+    float: right;
+    color: #888;
+    font-size: 0.9em;
+}
+.action-buttons {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.card {
+    position: relative;
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6c757d; /* Lightened blue color */
+    padding: 10px;
+}
+.title h1 {
+    font-family: 'DFKai-SB', serif;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+    color: #fff;
+    margin: 0;
 }
